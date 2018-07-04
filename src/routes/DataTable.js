@@ -12,8 +12,6 @@ class DataTable extends Component {
 		if (!target.id) {
 			target = target.closest("span[id]")
 		}
-		
-		console.log(target)
 	
 		setTimeout(() => {
 			
